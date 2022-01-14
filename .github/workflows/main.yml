@@ -2,7 +2,8 @@ name: Build-Test-Deploy
 
 on:
   push:
-    - master
+    branches:
+      - master
 jobs:
   Build-Job:
     runs-on: ubuntu-latest
